@@ -1,10 +1,27 @@
+import { Flex, Heading, Text } from "@chakra-ui/react";
+
+import { Ticket } from "./components/Ticket";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>TODO APP</h1>
-    </div>
-  )
+	return (
+		<Flex direction="column" justify="center" align="center">
+			<Heading as="h1" color="#FFFFFF" fontSize="2rem">
+				Boarding pass
+			</Heading>
+
+			<Ticket />
+
+			<Text
+				color="#FFFFFF"
+				fontWeight={400}
+				fontSize="1.4rem"
+				align="center"
+				w="27rem"
+			>
+				If you have any problems, contact your airline's service desk.
+			</Text>
+		</Flex>
+	);
 }
 
-export default App
+export default App;
