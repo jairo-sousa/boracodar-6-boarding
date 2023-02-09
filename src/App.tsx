@@ -1,6 +1,6 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 
-import { Ticket } from "./components/Ticket";
+import { Ticket } from "./components/Ticket/Ticket";
 
 function App() {
 	return (
