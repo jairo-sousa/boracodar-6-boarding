@@ -4,7 +4,7 @@ import { Ticket } from "./components/Ticket/Ticket";
 
 function App() {
 	return (
-		<Flex direction="column" justify="center" align="center">
+		<Flex direction="column" justify="center" align="center" gap="2rem">
 			<Heading as="h1" color="#FFFFFF" fontSize="2rem">
 				Boarding pass
 			</Heading>

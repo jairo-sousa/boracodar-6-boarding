@@ -4,7 +4,7 @@ import { FlightInfo } from "./TicketSegments/FlightInfo";
 
 export function Ticket() {
 	return (
-		<Flex>
+		<Flex overflow="hidden">
 			<TicketSegment>
 				<FlightInfo />
 			</TicketSegment>
