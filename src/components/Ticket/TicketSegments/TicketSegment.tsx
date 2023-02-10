@@ -12,7 +12,7 @@ export function TicketSegment(props: TicketSegmentProps) {
 			width="100%"
 			h="100%"
 			p="2.4rem 3.2rem"
-			w="26.3rem"
+			w="32.7rem"
 			bg="#ffffff"
 			borderRadius={`${props.top ? " 2.4rem 2.4rem" : "0 0"} ${
 				props.bottom ? "2.4rem 2.4rem" : "0 0"

@@ -8,12 +8,8 @@ export function Ticket() {
 			<TicketSegment top={true}>
 				<FlightInfo />
 			</TicketSegment>
-			<TicketSegment>
-				<FlightInfo />
-			</TicketSegment>
-			<TicketSegment bottom={true}>
-				<FlightInfo />
-			</TicketSegment>
+			<TicketSegment>hi</TicketSegment>
+			<TicketSegment bottom={true}>hi</TicketSegment>
 		</Flex>
 	);
 }
