@@ -3,7 +3,7 @@ import { LightText } from "../../LightText";
 
 export function FlightInfo() {
 	return (
-		<Flex direction="column" w="100%">
+		<Flex direction="column" w="100%" gap="2.4rem">
 			<Flex w="100%" justify="space-between">
 				<Box>
 					<LightText text="Flight" />
