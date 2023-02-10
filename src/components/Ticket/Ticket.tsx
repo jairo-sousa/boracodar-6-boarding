@@ -4,8 +4,14 @@ import { FlightInfo } from "./TicketSegments/FlightInfo";
 
 export function Ticket() {
 	return (
-		<Flex overflow="hidden">
+		<Flex direction="column">
+			<TicketSegment top={true}>
+				<FlightInfo />
+			</TicketSegment>
 			<TicketSegment>
+				<FlightInfo />
+			</TicketSegment>
+			<TicketSegment bottom={true}>
 				<FlightInfo />
 			</TicketSegment>
 		</Flex>
