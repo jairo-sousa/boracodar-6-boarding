@@ -4,7 +4,7 @@ import { LightText } from "../../LightText";
 export function FlightInfo() {
 	return (
 		<>
-			<Flex>
+			<Flex w="100%" justify="space-between">
 				<Box>
 					<LightText text="Flight" />
 					<Text>R$995</Text>
