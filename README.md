@@ -1,6 +1,5 @@
 <h1 align="center"> BOARDING CARD </h1>
 <p align="center">A card with boarding information</p>
-<p align="center">IN PRODUCTION</p>
 
 <a align="center" href="https://euphonious-crepe-6c0368.netlify.app/">
   <img alt="App preview" src="./.github/preview.svg">
