@@ -30,7 +30,10 @@ export function BoardingInfo() {
 						</Box>
 					</Flex>
 					<Flex direction="column" gap="1rem">
-						<Img src="./.github/qrcode.svg" alt="qrcode" />
+						<Img
+							src="https://raw.githubusercontent.com/jairo-sousa/boracodar-6-boarding/main/.github/qrcode.svg"
+							alt="qrcode"
+						/>
 						<LightText text="Boarding group: 3" />
 					</Flex>
 				</Flex>
