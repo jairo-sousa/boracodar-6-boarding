@@ -14,6 +14,7 @@ export function Corner(props: CornerProps) {
 			h="2.4rem"
 			bg="linear-gradient(to bottom, #8257e5 0%, #271a45 100%)"
 			borderRadius="50%"
+			zIndex={1}
 			position="absolute"
 			backgroundSize="100vw 100vh"
 			transform="translate(-1.2rem, -1.2rem)"

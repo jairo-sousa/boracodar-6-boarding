@@ -14,6 +14,8 @@ export function TicketSegment(props: TicketSegmentProps) {
 			p="2.4rem 3.2rem"
 			w="32.7rem"
 			bg="#ffffff"
+			direction="column"
+			justify="space-between"
 			borderRadius={`${props.top ? " 2.4rem 2.4rem" : "0 0"} ${
 				props.bottom ? "2.4rem 2.4rem" : "0 0"
 			}`}
@@ -27,6 +29,18 @@ export function TicketSegment(props: TicketSegmentProps) {
 
 			{!props.bottom ? <Corner right={true} bottom={true} /> : ""}
 			{!props.bottom ? <Corner left={true} bottom={true} /> : ""}
+
+			{!props.bottom ? (
+				<Box
+					w="calc(100% + 3.2rem*2)"
+					borderBottom="1px dashed rgba(0, 0, 0, 0.32)"
+					position="absolute"
+					bottom="0"
+					left="0"
+				/>
+			) : (
+				<Box w="100%" bottom="0" left="0" />
+			)}
 		</Flex>
 	);
 }
