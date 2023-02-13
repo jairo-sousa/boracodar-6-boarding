@@ -26,12 +26,3 @@ export function Corner(props: CornerProps) {
 		></Box>
 	);
 }
-
-/**
-
-left={`${props.left ? props.left : position}`}
-right={`${props.right ? props.right : position}`}
-top={`${props.top ? props.top : position}`}
-bottom={`${props.bottom ? props.bottom : position}`}
-
- */
