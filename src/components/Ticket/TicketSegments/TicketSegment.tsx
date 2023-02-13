@@ -24,11 +24,11 @@ export function TicketSegment(props: TicketSegmentProps) {
 		>
 			{props.children}
 
-			{!props.top ? <Corner right={true} top={true} /> : ""}
-			{!props.top ? <Corner left={true} top={true} /> : ""}
+			{!props.top && <Corner right={true} top={true} />}
+			{!props.top && <Corner left={true} top={true} />}
 
-			{!props.bottom ? <Corner right={true} bottom={true} /> : ""}
-			{!props.bottom ? <Corner left={true} bottom={true} /> : ""}
+			{!props.bottom && <Corner right={true} bottom={true} />}
+			{!props.bottom && <Corner left={true} bottom={true} />}
 
 			{!props.bottom ? (
 				<Box
