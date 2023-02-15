@@ -24,22 +24,26 @@ export function TicketSegment(props: TicketSegmentProps) {
 		>
 			{props.children}
 
-			{!props.top && <Corner right={true} top={true} />}
-			{!props.top && <Corner left={true} top={true} />}
+			{!props.top && (
+				<>
+					<Corner right={true} top={true} />
+					<Corner left={true} top={true} />
+				</>
+			)}
 
-			{!props.bottom && <Corner right={true} bottom={true} />}
-			{!props.bottom && <Corner left={true} bottom={true} />}
+			{!props.bottom && (
+				<>
+					<Corner right={true} bottom={true} />
+					<Corner left={true} bottom={true} />
 
-			{!props.bottom ? (
-				<Box
-					w="calc(100% + 3.2rem*2)"
-					borderBottom="1px dashed rgba(0, 0, 0, 0.32)"
-					position="absolute"
-					bottom="0"
-					left="0"
-				/>
-			) : (
-				<Box w="100%" bottom="0" left="0" />
+					<Box
+						w="calc(100% + 3.2rem*2)"
+						borderBottom="1px dashed rgba(0, 0, 0, 0.32)"
+						position="absolute"
+						bottom="0"
+						left="0"
+					/>
+				</>
 			)}
 		</Flex>
 	);
